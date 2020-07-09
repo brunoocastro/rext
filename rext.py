@@ -94,8 +94,8 @@ def main(argv):
     image_path = ''
     # Name of final image
     filename = ''
-    # If true, shows all steps of image processing
-    show = True
+    # If True, shows all steps of image processing
+    show = False
 
     # Recieving 
     try:
