@@ -25,7 +25,7 @@ First version of this software thats object is remove text from specific images 
         ```
         
 
-### AS Library:
+### As Library:
     - For library uses, import this Library and call the clean function passing an image as an argument. The return is a clean image.
 
         - Params: clean(image, show)
@@ -43,13 +43,15 @@ First version of this software thats object is remove text from specific images 
     Now we will see an demonstration of how it works:
 
 ### First Exemple
-Any web image
-    ![Original Image](/demonstration/ex1.png) 
-    ![Final Image](/demonstration/new_ex1.png) 
-    ![Processing Image](/demonstration/ex1_detais.png) 
+    Any web image
+
+
+![Original Image](/demonstration/ex1.png) ![Final Image](/demonstration/new_ex1.png) 
+![Processing Image](/demonstration/ex1_details.png) 
     
 ### Second Exemple
-Image from memebase.com
-    ![Original Image](/demonstration/ex1.png) 
-    ![Final Image](/demonstration/new_ex1.png) 
-    ![Processing Image](/demonstration/ex1_detais.png) 
+    Image from memebase.com
+
+
+![Original Image](/demonstration/ex2.jpg) ![Final Image](/demonstration/new_ex2.jpg) 
+![Processing Image](/demonstration/ex2_details.jpg) 
