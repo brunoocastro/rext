@@ -24,6 +24,8 @@ def clean(img, show = False):
     # If option = 1, will use TELEA method
     # If option = 2, will use NS method
     option = 1
+    # Defines the radio of InPainting
+    radius = 3
 
     # Some Params
     # for LaPlace operator
@@ -56,8 +58,8 @@ def clean(img, show = False):
     final_mask = np.uint8(di)
 
     # InPaint implementation
-    ip1 = cv2.inpaint(img, final_mask, 3, cv2.INPAINT_TELEA)
-    ip2 = cv2.inpaint(img, final_mask, 3, cv2.INPAINT_NS)
+    ip1 = cv2.inpaint(img, final_mask, radius, cv2.INPAINT_TELEA)
+    ip2 = cv2.inpaint(img, final_mask, radius, cv2.INPAINT_NS)
 
     if option == 2:
         final = cv2.cvtColor(ip2, cv2.COLOR_RGB2BGR)
