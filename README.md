@@ -46,12 +46,24 @@ First version of this software thats object is remove text from specific images 
     Any web image
 
 
-![Original Image](/demonstration/ex1.png) ![Final Image](/demonstration/new_ex1.png) 
+- Original Image
+![Original Image](/demonstration/ex1.png) 
+
+- Final Image
+![Final Image](/demonstration/new_ex1.png) 
+
+- Details of Processing Image
 ![Processing Image](/demonstration/ex1_details.png) 
     
 ### Second Exemple
     Image from memebase.com
 
+- Original Image
+![Original Image](/demonstration/ex2.jpg) 
 
-![Original Image](/demonstration/ex2.jpg) ![Final Image](/demonstration/new_ex2.jpg) 
-![Processing Image](/demonstration/ex2_details.jpg) 
+
+- Final Image
+![Final Image](/demonstration/new_ex2.jpg) 
+
+- Details of Processing Image
+![Processing Image](/demonstration/ex2_details.png) 
