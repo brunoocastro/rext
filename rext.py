@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 '''
-###########################################
     REXT - V 1.0
 Text Remover Library
 A Python library to remove text from images
