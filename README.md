@@ -20,9 +20,7 @@ First version of this software thats object is remove text from specific images 
     - You can call this script by terminal with this command line:
         -  OBS: Without '<' '>'
 
-        ```shell
-        python3 rext.py -i <input_image>
-        ```
+        `python3 rext.py -i <input_image>`
         
 
 ### As Library:
@@ -31,13 +29,24 @@ First version of this software thats object is remove text from specific images 
         - Params: clean(image, show)
         - If show = True, you can see all processing
 
-        ```python
-        import rext.py
+        
+        `import rext.py`
 
-        img = X
+        `img = X`
 
-        new_img = rext.clean(img)
-        ```
+        - img show:
+
+
+![Original Image](/demonstration/ex1.png) 
+
+
+
+        `new_img = rext.clean(img)`
+
+        - new_img show:
+
+![Final Image](/demonstration/new_ex1.png) 
+
 
 ## Demonstration
     Now we will see an demonstration of how it works:
