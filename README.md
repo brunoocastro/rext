@@ -38,3 +38,18 @@ First version of this software thats object is remove text from specific images 
 
         new_img = rext.clean(img)
         ```
+
+## Demonstration
+    Now we will see an demonstration of how it works:
+
+### First Exemple
+Any web image
+    ![Original Image](/demonstration/ex1.png) 
+    ![Final Image](/demonstration/new_ex1.png) 
+    ![Processing Image](/demonstration/ex1_detais.png) 
+    
+### Second Exemple
+Image from memebase.com
+    ![Original Image](/demonstration/ex1.png) 
+    ![Final Image](/demonstration/new_ex1.png) 
+    ![Processing Image](/demonstration/ex1_detais.png) 
